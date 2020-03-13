@@ -1,0 +1,47 @@
+body {
+    background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PEhUPDw8VFRUVFRUVFRUVFQ8VFRUVFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0NDisZFRkrNystKy0rKystLTc3Ky03KzcrLTctLS0tNysrLSsrKy0rKysrKysrKysrKysrKysrK//AABEIAKkBKwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgADB//EABgQAQEBAQEAAAAAAAAAAAAAAAABEQJB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECBP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A8vioIXO4zFCFELNDAaKgxUQY4xgjFmSjNCcRBDIZDAGNhIJwYqtgJsCmwEnDIwAFgSKoKqKFCxQNhkYigFlAmqooqQoKrnFRMVBFQgojRUBgGGAxBUMEIjFmjKNCxwCRCIxxmAMWBOMWAMxAJqqBU0VQBIpFaUM1YWMk1lACKKBpSqoiomRcEMMaMiEwECqCKiIxYxEaFjEGhjEGMYiAscEDFg1LUsCcOkCgFsFTU1aaCQWXRIUFWAEKoFLUVNSoKsRFRMVERUMgihGIVERoqCRUQJgVERpDGIjNDDgjGRpFREaRsJBONigCbBimwEjFYwJFNZVSmrqRpFFVRgAYWWKkVVCqkKoVU0KowVyi4mGCLhEIhhghiIqGDFRlCpKoBMBErGMcRDFRPMXBGLRQDAoIiaFVNijA4wqamqoFSKqpVU1NVRYKlmIJakNNRNCqlVAIBzioiKgLhTFCEwQxEVFREqoiLKYYgphDBFGJhiJVxURKqCKKSIptEGoMK1o1RtDawooahVFFKaKKmmiitQ2soKDQsaFZgqgawBzioiLiioYIYiFUSZUoqGCFEUYlURFQphAxSYYMqipURUQVDqTBDrAUCBraDM1ACsGVWqaU0aCTaADEKoo00NRWqaQKLUmso5xURFwFGCHUQxmhSioUxURCqAxEMIYCYCIoxMUiEp0iYQ2toYK2sAwhowrCkKqRTRoqaDRQYMyqBSyxUg0KooNCrHKKiYrmiKiokoioYmGAqKlRFc1EUYmFEVpSyClSoMoizESqDCUkCAwFksIpk62imiisAorUUUMBVwOsNZVjCtQqtQzCihgqxyiohUEWUwoKMSqCExMILhiJVRMMVGTp1EUUSnUxFSqlQdBR1GnQUNGi0FBOnQOsnWAto0LgdA0WqrUVhaYuMzaFGbRraBS2i0VrRWqVaRKpPKoMmU6kgrTKmlBUOphEVrSiGgdOpIK1pUxoYi9bRWQOnQwHW1Jgja2iNANraKKKrRoZRrRrAVrQw9A6NbpqDaNagVtFrUKsbQ0A1H//2Q==') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.title{
+    font-size: 4vw;
+    margin-top: 20px;
+
+    margin-bottom: 40px;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display:flex;
+    padding: 10px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-blackjack-row-1 div{
+border: 1px solid black;
+padding: 10px;
+flex:1;
+height: 320px;
+text-align: center;
+}
+.flex-blackjack-row-1 img{
+    width:25%;
+    padding: 10px;
+}
+.flex-blackjack-row-2 button{
+    margin: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
